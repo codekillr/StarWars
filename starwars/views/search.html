@@ -1,0 +1,16 @@
+<div class="loading" ng-show="{{showLoader}}">
+    <br />Hello! Please wait, Planets are loading!
+</div>
+<div class="col-md-10 masthead clearfix">
+    <div class="inner">
+      <h2 class="masthead-brand col-xs-12"><a ui-sref="home">Welcom to {{welcomeName}}!</a></h2>
+    </div>
+</div>
+
+<div>
+    <div class="icon-addon addon-lg" style="margin-top: 10%;margin-bottom: 3%;">
+        <input type="text" placeholder="Search Planet here!" class="form-control" ng-model="searchPlanet" id="searchPlanet" style="xmargin-bottom: 5%;margin-left: 21%;width: 600px;">
+        <label for="email" class="glyphicon glyphicon-search" rel="tooltip" title="email" style="margin-left: 21%;"></label>
+    </div>
+    <planets></planets>
+</div>

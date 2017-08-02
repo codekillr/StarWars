@@ -1,0 +1,3 @@
+<div ng-repeat="planet in planets | searchFor:searchPlanet">
+    	<div class="col-xs-4" style="font-size:{{(planet.population.length*3) +'px'}}"><a ui-sref="planet({id:planet.id})">{{planet.name}}</a></div>
+</div>
